@@ -1,0 +1,153 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+body {
+    background: radial-gradient(circle at center, #011627 100%);
+    min-height: 100vh;
+    color: white;
+}
+.header-pes {
+    padding: 8px 0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.50);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10000;
+}
+
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+}
+
+.logo h1 {
+    font-size: 24px;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+.nav-menu {
+    display: flex;
+    gap: 35px;
+    align-items: center;
+}
+
+.nav-menu button {  position: relative;
+    font-size: 1.1em;
+    color:#fff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 40px;
+    background: transparent;
+border: none;
+outline: none;
+cursor: pointer;
+}
+
+.nav-menu button::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    width: 100%;
+    height: 3px;
+    background: #fff;
+    border-radius: 5px;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform .5s;
+}
+.nav-menu button:hover::after {
+    transform-origin: left;
+    transform: scaleX(1);
+}
+
+/* tarjetas) */
+.content-section {
+    padding-top: 200px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    font-size: 2.5rem;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.cards-container {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.card {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+    width: 300px;
+    padding: 30px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.card h3 {
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+}
+
+.card p {
+    font-size: 0.9rem;
+    color: #cbd7ff;
+    margin-bottom: 25px;
+    line-height: 1.5;
+}
+
+.btn-ver-mas {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0056b3;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: background 0.3s;
+}
+
+.btn-ver-mas:hover {
+    background-color: #003d7a;
+}
+.nav-menu h2{
+  margin: 30px;
+  background: none;
+  border: 1px solid #353535;
+  outline: none;
+  max-width: 200px;
+  padding: 11px 23px;
+  font-size: 16px;
+  border-radius: 50px;
+  color: #ffffff;
+  box-shadow: rgb(136 136 136 / 17%) 0px -23px 25px 0px inset,
+    rgb(81 81 81 / 23%) 0px -36px 30px 0px inset,
+    rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px,
+    rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,
+    rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}

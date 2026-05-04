@@ -1,0 +1,219 @@
+* {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+body { 
+    background: radial-gradient(circle at center, #011627 100%);
+    background-attachment: fixed;
+    color: #fff;
+    
+     backdrop-filter: blur(100px);
+}
+/* MENÚ */
+.header-pes { padding: 20px 0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.50);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10000;
+}
+.menu-derecho { 
+    padding: 30px 0; 
+ display: flex;
+    gap: 35px;
+    align-items: center;
+     backdrop-filter: blur(20px);
+}
+.menu-derecho button {
+    background: none;
+    border: none;
+    font-size: 16px;
+}
+.container-nav {    max-width: 1320px; 
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 42px;
+}
+
+
+.nav-menu {
+    display: flex;
+    gap: 35px;
+    align-items: center;
+}
+.nav-menu button {
+    position: relative;
+    font-size: 1.1em;
+    color:#ffffff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 40px;
+}
+.nav-menu button:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    width: 100%;
+    height: 3px;
+    background: #fff;
+    border-radius: 5px;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform .5s;
+}
+
+.nav-menu button:hover::after {
+    transform-origin: left;
+    transform: scaleX(1);
+}
+.logo h1 {
+    font-size: 24px;
+    color: #ffffff; 
+    font-weight: 700;
+}
+
+.hero h1{
+    
+    font-size: 48px;
+    color: #fff;
+    padding-top: 50px;
+    
+    text-align: center;
+}
+.hero p {
+    font-size: 20px;
+    color: #fff;
+    padding-top: 5px;
+    text-align: center;
+}
+
+.info h2 {
+    color : #fff;
+    text-align: center;
+    padding-top: 30px;
+}
+.info p {
+     max-width: 500px;
+     text-align: center;
+       word-wrap: break-word;
+          margin: 0 auto; 
+          padding-top: 20px;
+          color: #fff;
+          font-size: 1.1rem;
+}
+.video {
+    
+    display: flex;
+    justify-content: center;
+    padding-left: 30px;
+    padding-top: 20px;
+}
+
+
+.cards-container { display: flex;       
+  flex-wrap: wrap;   
+  justify-content: center;
+  gap: 30px;         
+  padding: 20px;
+  
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    width: 100%;
+}
+
+.card {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+    width: 300px;
+    padding: 15px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.card h1{
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+}
+
+.card p {
+    font-size: 0.9rem;
+    color: #cbd7ff;
+    margin-bottom: 25px;
+    line-height: 1.5;
+}
+
+.content-section {
+    padding-top: 15px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 50px;
+    text-align: center;
+    color: #fff;
+}
+
+section li {
+    font-size: 1.1rem;
+    color: #ffffff;
+    margin-bottom: 15px;
+    line-height: 1.5;
+    text-align: center;
+     list-style-type: disc;
+}
+
+
+.consejos {
+     display: flex;       
+  flex-wrap: wrap;   
+  justify-content: center;
+  gap: 30px;         
+  padding: 20px;
+}
+
+.tip-card {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+    width: 300px;
+    padding: 15px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.tip-card:hover {
+    transform: translateY(-10px);
+}
+
+.tip-card h1{
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+}
+
+.tip-card p {
+    font-size: 0.9rem;
+    color: #cbd7ff;
+    margin-bottom: 25px;
+    line-height: 1.5;
+}

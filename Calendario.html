@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>People Saved | Calendario </title>
+    <link rel="stylesheet" href="Calen2.css">
+</head>
+<body>
+<header class="header-pes">
+    <div class="container-nav">
+        <div class="logo-principal">
+            <span class="texto-logo">People Saved</span>
+        </div>
+        <nav class="navegacion">
+              <h2 id="mensajeBienvenida">Cargando...</h2>
+            <button id="IniBtn">Inicio</button>
+            <button id="enfermedadesBtn">Enfermedades</button>
+            <button id="medicamentoBtn">Medicamentos</button>
+            <button id="MapitaBtn">Mapita PeS</button>
+        </nav>
+    </div>
+</header>
+<main class="main-content">
+    <div class="hero-header">
+        <h1>Calendario de seguimiento</h1>
+        <p>Has seguimiento de tus tratamientos medicos</p>
+    </div>
+    <div class="calendar-container">
+        <div class="calendar-header">
+            <h2 id="MesNomb">Abril 2026</h2>
+            <div class="calendar-nav-buttons">
+                <button id="MesAnterior">&lt;</button>
+                <button id="MesSiguiente">&gt;</button>
+            </div>
+        </div>
+        <div class="calendar" id="calendar">
+            </div>
+        <div class="med-form">
+            <h3>Agregar Recordatorio</h3>
+            <div class="form-group">
+                <input type="text" id="nombreMed" placeholder="Nombre del medicamento">
+                <input type="time" id="horaMed">
+                <button id="GuardarRecordatorio">Guardar Recordatorio</button>
+            </div>
+        </div>
+    </div>
+<script src="botones.js"></script>
+<script src="Calen.js"></script>
+    <script src="DATOS.js"></script>
+
+</body>
+</html>

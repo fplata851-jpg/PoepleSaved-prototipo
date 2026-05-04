@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    background-color: #f4f7f6; /* Fondo gris claro profesional */
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* --- 2. EL MENÚ SUPERIOR (Header) --- */
+.header-pes {
+    background-color: #ffffff;
+    width: 100%;
+    padding: 15px 0;
+    border-bottom: 1px solid #f0f0f0;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    position: fixed; /* Se queda arriba siempre */
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.container-nav {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+/* Logo */
+.logo-principal {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.cuadro-azul {
+    background-color: #0056b3;
+    color: white;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.texto-logo {
+    font-size: 22px;
+    font-weight: 700;
+    color: #333;
+}
+
+/* Enlaces del menú */
+.navegacion a {
+    text-decoration: none;
+    color: #555 !important;
+    font-weight: 600;
+    font-size: 15px;
+    margin-left: 25px;
+    transition: 0.3s;
+}
+
+.navegacion a:hover {
+    color: #0056b3 !important;
+}
+
+/* --- 3. CONTENIDO PRINCIPAL --- */
+h1 {
+    text-align: center;
+    margin: 120px 0 40px 0; /* MUCHO espacio arriba para que no lo tape el menú */
+    font-size: 38px;
+    color: #2c3e50;
+}
+
+.galeria {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap; /* Para que bajen si no caben */
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* --- 4. LAS TARJETAS (Look Pro) --- */
+.card-zoom {
+    background: white;
+    border-radius: 20px;
+    padding: 40px 25px;
+    width: 300px; /* Tamaño fijo para que no se estiren raro */
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+    border: 1px solid #eee;
+    transition: 0.3s;
+}
+
+.card-zoom:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 40px rgba(0,0,0,0.1);
+}
+
+.imagen-zoom {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+    object-fit: contain;
+}
+
+.card-zoom h3 {
+    font-size: 24px;
+    color: #0056b3;
+    margin-bottom: 10px;
+}
+
+.card-zoom p {
+    color: #666;
+    font-size: 14px;
+    margin-bottom: 25px;
+}
+
+.card-zoom button {
+    background-color: #0056b3;
+    color: white;
+    border: none;
+    padding: 12px 0;
+    width: 100%;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.card-zoom button:hover {
+    background-color: #003d82;
+}
+
+/* --- 5. FOOTER --- */
+.footer-content {
+    margin-top: auto; /* Empuja al final */
+    padding: 40px 0;
+    text-align: center;
+    background: white;
+    border-top: 1px solid #eee;
+    width: 100%;
+}
