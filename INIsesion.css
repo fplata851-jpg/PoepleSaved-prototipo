@@ -247,3 +247,20 @@ transform: translateX(-400px);
     font-weight: 500;
     margin: 25px 0 10px;
 }
+
+/* Esto se activa solo en pantallas menores a 768px (celulares) */
+@media (max-width: 768px) {
+  .contenedor {
+    flex-direction: column; /* Si usas Flexbox, esto pone las cosas una debajo de otra */
+    width: 95%; /* Dale un poco de aire a los lados */
+  }
+
+  input, button {
+    width: 100%; /* Que los botones y entradas ocupen todo el ancho para que sean fáciles de tocar */
+    margin-bottom: 10px;
+  }
+
+  h1 {
+    font-size: 24px; /* Reduce el tamaño del texto para que no se corte */
+  }
+}
