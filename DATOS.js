@@ -87,7 +87,7 @@ function cerrarSesion() {
     sessionStorage.clear();
 
     // Redirigir al login
-    window.location.href = "Iniciodesesion.html";
+    window.location.href = "index.html";
 }
 // 3. Ejecutar al abrir la página
 document.addEventListener('DOMContentLoaded', () => {
