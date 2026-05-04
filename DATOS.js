@@ -5,7 +5,7 @@ const emailLogueado = localStorage.getItem('usuarioLogueado');
 
 if (!emailLogueado) {
     alert("Acceso denegado. Por favor inicia sesión.");
-    window.location.href = "Iniciodesesion.html"; // Te regresa al login si no entraste legalmente
+    window.location.href = "index.html"; // Te regresa al login si no entraste legalmente
 }
 
 // Mostrar el nombre del usuario logueado
