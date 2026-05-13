@@ -214,10 +214,7 @@ section li {
     display: block;
     margin-bottom: 15px;
     transition: all .3s ease;
-
-
 }
-
 .footer-links ul li a:hover {
     color: #ffffff;
     padding-left: 6px;
