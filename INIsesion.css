@@ -263,4 +263,7 @@ transform: translateX(-400px);
   h1 {
     font-size: 24px; /* Reduce el tamaño del texto para que no se corte */
   }
+
+    * {
+    border: 1px solid red !important;
 }
