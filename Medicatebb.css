@@ -8,9 +8,10 @@
 }
 
 body {
-    background-color: #f4f7f6;
-    color: #333;
-    padding-top: 110px; 
+   
+    background-attachment: fixed;
+    color: #fff;
+    padding-top: 100px; 
      backdrop-filter: blur(100px);
 }
 
