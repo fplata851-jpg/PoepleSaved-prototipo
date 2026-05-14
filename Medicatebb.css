@@ -17,7 +17,7 @@ body {
 
 /* el mennu */
 .header-pes {padding: 8px 0;
-    box-shadow: 02px 5px rgba(0,0,0,0.50);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.50);
     position: fixed;
     top: 0;
     width: 100%;
