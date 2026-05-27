@@ -89,7 +89,7 @@ if (botonGuardar) {
             });
 
             if (respuesta.ok) {
-                alert("¡Guardado en tu calendario personal!");
+                alert("¡Guardado en tu Bitácora personal!");
                 renderCalendar(); 
             }
         } catch (error) {
