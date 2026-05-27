@@ -179,7 +179,7 @@ cursor: pointer;
 }
 .contenido-footer {
     max-width: 800px;
-    padding: 10px 0;
+    padding: 12px 0;
     margin: auto;
 }
 
@@ -199,7 +199,7 @@ cursor: pointer;
 .footer-links h4 {
     font-size: 14px;
     color: #ffffff;
-    margin-bottom: 8px;
+    margin-bottom: 6px;
     font-weight: 500;
     border-bottom: 1px solid #00C3FF;
     padding-bottom: 4px;
@@ -216,7 +216,7 @@ cursor: pointer;
     text-decoration: none;
     color: #BBBBBB;
     display: block;
-    margin-bottom: 6px;
+    margin-bottom: 5px;
     transition: all .3s ease;
 }
 
