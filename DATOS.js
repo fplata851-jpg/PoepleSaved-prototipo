@@ -24,7 +24,7 @@ async function cargarMisDatos() {
         });
         const data = await res.json();
 
-        console.log("Datos de mi calendario:", data.records);
+        console.log("Datos de mi Bitácora:", data.records);
 
     } catch (error) {
         console.error("Error al cargar datos:", error);
@@ -64,7 +64,7 @@ async function cargarMisDatos() {
         });
         const data = await res.json();
 
-        console.log("Datos de mi calendario:", data.records);
+        console.log("Datos de mi Bitácora:", data.records);
 
     } catch (error) {
         console.error("Error, no se cargaron los datos:", error);
