@@ -177,3 +177,50 @@ cursor: pointer;
     rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,
     rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
+.contenido-footer {
+    max-width: 800px;
+    padding: 10px 0;
+    margin: auto;
+}
+
+.footer {
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+    text-align: center;
+    color: #fff;
+    font-size: 13px;
+}
+
+.footer-row {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-links h4 {
+    font-size: 14px;
+    color: #ffffff;
+    margin-bottom: 8px;
+    font-weight: 500;
+    border-bottom: 1px solid #00C3FF;
+    padding-bottom: 4px;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-links ul li a {
+    font-size: 13px;
+    text-decoration: none;
+    color: #BBBBBB;
+    display: block;
+    margin-bottom: 6px;
+    transition: all .3s ease;
+}
+
+.footer-links ul li a:hover {
+    color: #ffffff;
+    padding-left: 4px;
+}
